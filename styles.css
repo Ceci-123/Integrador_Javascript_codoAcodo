@@ -1,0 +1,15 @@
+#arriba {
+    background-color: blue;
+}
+
+#nuevos_ingresos {
+    background-image: url(/multimedia/funkos-banner.webp)    ;
+}
+
+footer{
+    background-color: blue;
+}
+
+h1, li{
+    color: #FAFAFF;
+}
