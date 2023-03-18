@@ -1,15 +1,37 @@
 #arriba {
-    background-color: blue;
+    background-color: black;
+    color: #FAFAFF;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
 }
 
 #nuevos_ingresos {
     background-image: url(/multimedia/funkos-banner.webp)    ;
+    height: 300px;
+    color: #FAFAFF;  
 }
 
 footer{
     background-color: blue;
 }
 
-h1, li{
-    color: #FAFAFF;
+h1{
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+a{
+    color: #FAFAFF;  
+    text-decoration: none;
+    padding: 10px 20px;
+  
+}
+
+#carrito{
+    width: 50px;
 }
