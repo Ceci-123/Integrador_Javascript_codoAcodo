@@ -9,13 +9,13 @@
   </head>
   <body>
     <header>
-      <section id="arriba">
+      <section class="barra_de_navegacion">
         <img
           src="/multimedia/branding/isotype.svg"
           alt="Logo de Funkoshop"
           width="50px"
         />
-        <h1>Funkoshop</h1>
+        <h1><a href="index.html">Funkoshop</a></h1>
         <nav>
           <ul>
             <li><a href="shop.html">Shop</a></li>
@@ -31,55 +31,90 @@
       </section>
 
       <section id="nuevos_ingresos">
-        <h2>Nuevos ingresos</h2>
+        <h2>Nuevos Ingresos</h2>
         <h3>Descubri el proximo funko pop de tu coleccion</h3>
-        <button>Shop</button>
+        <button id="boton_shop">Shop</button>
       </section>
     </header>
     <main>
       <article>
-        <h2>Star Wars & the mandalorian</h2>
-        <h3>
+        <p class="titulo">Star Wars & the mandalorian</p>
+        <p class="subtitulo">
           Disfruta de una saga que sigue agregando personajes a su coleccion
-        </h3>
-        <button>Ver coleccion</button>
+        </p>
+        <button class="ver_coleccion">Ver coleccion</button>
+        <img
+          src="/multimedia/star-wars/baby-yoda-1.webp"
+          alt="Baby Yoda"
+          width="350px"
+        />
       </article>
       <article>
-        <h2>Pokemon indigo</h2>
-        <h3>
+        <p class="titulo">Pokemon indigo</p>
+        <p class="subtitulo">
           Atrapa todos los que puedas y disfruta de una coleccion llena de
           amigos
-        </h3>
-        <button>Ver coleccion</button>
+        </p>
+        <button class="ver_coleccion">Ver coleccion</button>
+        <img
+          src="/multimedia/pokemon/vulpix-1.webp"
+          alt="Vulpix"
+          width="350px"
+        />
       </article>
       <article>
-        <h2>Harry Potter</h2>
-        <h3>Revive los recuerdos de una saga llena de magia y encanto</h3>
-        <button>Ver coleccion</button>
+        <p class="titulo">Harry Potter</p>
+        <p class="subtitulo">
+          Revive los recuerdos de una saga llena de magia y encanto
+        </p>
+        <button class="ver_coleccion">Ver coleccion</button>
+        <img
+          src="/multimedia/harry-potter/snape-patronus-1.webp"
+          alt="Snape Patronus"
+          width="350px"
+        />
       </article>
-      <section>
-        <h2>Ultimos lanzamientos</h2>
+      <section id="ultimos_lanzamientos">
+        <p>Ultimos lanzamientos</p>
         <article>
-          <h3>Star Wars</h3>
-          <h4>Stormtrooper Lightsaber</h4>
-          <h5>$ 1799.99</h5>
-          <h5>3 cuotas sin interes</h5>
+          <button class="nuevo">Nuevo</button>
+          <img
+            src="/multimedia/star-wars/trooper-1.webp"
+            alt="Stormtrooper"
+            width="350px"
+          />
+          <p>Star Wars</p>
+          <p>Stormtrooper Lightsaber</p>
+          <p>$ 1799.99</p>
+          <p>3 cuotas sin interes</p>
         </article>
         <article>
-          <h3>Pokemos</h3>
-          <h4>Pidgeotto</h4>
-          <h5>$ 1799.99</h5>
-          <h5>3 cuotas sin interes</h5>
+          <button class="nuevo">Nuevo</button>
+          <img
+            src="/multimedia/pokemon/pidgeotto-1.webp"
+            alt="Pidgeotto"
+            width="350px"
+          />
+          <p>Pokemon</p>
+          <p>Pidgeotto</p>
+          <p>$ 1799.99</p>
+          <p>3 cuotas sin interes</p>
         </article>
         <article>
-          <h3>Harry Potter</h3>
-          <h4>Luna lovegood lion mask</h4>
-          <h5>$ 1799.99</h5>
-          <h5>3 cuotas sin interes</h5>
+          <button class="nuevo">Nuevo</button>
+          <img
+            src="/multimedia/harry-potter/luna-1.webp"
+            alt="Luna"
+            width="350px"
+          />
+          <p>Harry Potter</p>
+          <p>Luna lovegood lion mask</p>
+          <p>$ 1799.99</p>
+          <p>3 cuotas sin interes</p>
         </article>
       </section>
     </main>
-    <footer>
+    <footer class="barra_de_navegacion">
       <nav>
         <ul>
           <li>Shop</li>

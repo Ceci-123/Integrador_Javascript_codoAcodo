@@ -1,20 +1,10 @@
-#arriba {
-    background-color: black;
-    color: #FAFAFF;
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    align-items: center;
-}
-
 #nuevos_ingresos {
-    background-image: url(/multimedia/funkos-banner.webp)    ;
+    background-image: url(/multimedia/funkos-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     color: #FAFAFF;  
-}
-
-footer{
-    background-color: blue;
+   
 }
 
 h1{
@@ -34,4 +24,103 @@ a{
 
 #carrito{
     width: 50px;
+}
+
+main {
+    display: block;
+}
+
+.barra_de_navegacion {
+    background-color: black;
+    color: #FAFAFF;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+h2{
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+h3{
+    font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#boton_shop{
+    position: absolute;
+width: 211px;
+height: 47px;
+left: 110px;
+top: 375px;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+
+
+section{
+display: block; /* Asegurarse de que el elemento sea un bloque */
+  margin: 0; /* Eliminar cualquier margen predefinido */
+  padding: 0; /* Eliminar cualquier relleno predefinido */
+}
+
+.titulo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 54px;
+text-transform: uppercase;
+color: #111111;
+}
+
+.subtitulo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #333333;
+border-bottom:3px solid #FF3333 ;
+
+}
+
+.ver_coleccion{
+    background: #30343F;
+border-radius: 50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+article{
+    display: flex;
+}
+
+#ultimos_lanzamientos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nuevo{
+    width: 96.13px;
+height: 30px;
+left: 373.84px;
+top: 2511px;
+background: #FF3333;
 }
